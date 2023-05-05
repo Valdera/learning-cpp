@@ -11,8 +11,8 @@
  */
 
 int main() {
-    int e = 42;    // Initialized to 42
-    int f{42};     // Initialized to 42
-    int g = {42};  // Initialized to 42
-    int h(42);     // Initialized to 42
+  int e = 42;    // Initialized to 42
+  int f{42};     // Initialized to 42
+  int g = {42};  // Initialized to 42
+  int h(42);     // Initialized to 42
 }

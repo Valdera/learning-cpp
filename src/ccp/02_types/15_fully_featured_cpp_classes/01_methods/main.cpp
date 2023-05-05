@@ -1,17 +1,15 @@
 #include <cstdio>
 
 struct ClockOfTheLongNow {
-    int year;
+  int year;
 
-    void add_year() {
-        year++;
-    }
+  void add_year() { year++; }
 };
 
 int main() {
-    ClockOfTheLongNow clock;
+  ClockOfTheLongNow clock;
 
-    clock.year = 2017;
-    clock.add_year();
-    printf("year: %d\n", clock.year);
+  clock.year = 2017;
+  clock.add_year();
+  printf("year: %d\n", clock.year);
 }
